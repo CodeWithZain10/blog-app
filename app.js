@@ -1,9 +1,10 @@
 const express = require("express");
 const cookieParser = require("cookie-parser");
-const app = express();
 const path = require("path");
 
 require("dotenv").config();
+
+const app = express();
 
 const indexRouter = require("./routes/index");
 const userRouter = require("./routes/userRouter");
